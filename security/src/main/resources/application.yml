@@ -1,0 +1,12 @@
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog
+    username: root
+    password:
+  application:
+    name: security
